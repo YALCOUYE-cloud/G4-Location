@@ -25,6 +25,6 @@ label{
     font-weight: 20px;
 }
 .container{
-    background-image:url(img/location.png);
+    background-image:url(../img/location.png);
     background-repeat: no-repeat;
 }
