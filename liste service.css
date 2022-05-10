@@ -1,0 +1,31 @@
+h4{
+    text-align: center;
+    background-color: gold;
+    margin-left: 400px;
+    margin-right: 250px;
+}
+table{
+    border-collapse: collapse; }
+th,td{
+    border: 1px solid black;
+}
+.ajout{
+    text-align: center;
+    float:right;
+margin-left: 10px;
+}
+.annuler{
+    position:absolute;
+    top: 2px;
+    right: 70px;
+    float: right;
+    /* margin-left: 1095px; */
+    
+}
+.fermer{
+    float: right;
+}
+.container-fluid{
+    border: 5px solid gold;
+    
+}

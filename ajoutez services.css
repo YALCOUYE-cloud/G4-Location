@@ -1,0 +1,31 @@
+h2{
+    background-color: gold;
+    text-align: center;
+    color:rgba(255, 0, 0, 0.749);
+}
+body{
+    text-align: center;
+}
+.my{
+    background-color: red;
+    border-radius: 20%;
+    margin-left: -15%;
+}
+.ly{
+    background-color: gold;
+    margin-right: 15%;
+    float: right;
+    border-radius:40%;
+}
+label{
+    color: yellow;
+    text-size-adjust: 25px;
+    
+}
+form{
+    justify-items: center;
+}
+.container{
+    background-image: url(img/service.jfif);
+    background-repeat: no-repeat;
+}

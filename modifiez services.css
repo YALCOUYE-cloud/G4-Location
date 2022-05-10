@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+}
+.ly{
+    background-color:red;
+    margin-right: 50px;
+}
+.my{
+    background-color:yellow;
+    margin-left: 50px;
+}
+h2{
+    background-color: gold;
+}
+label{
+    color: yellow;
+    font-weight: 20px;
+}
+
+body{
+    text-align: center;
+}
