@@ -1,0 +1,62 @@
+ h1{
+    background-color: goldenrod;
+    padding: 100pxpx;
+}
+.tableau-style {
+    border-collapse: collapse; 
+     min-width: 400px; 
+    width: auto;
+    /* box-shadow: 0 5px 50px rgba(0, 0, 0, 15);  */
+    cursor: pointer;
+    margin :  auto; 
+     border : 2px solid; 
+
+}
+thead tr {
+     /* pour la couleur du titre; */ 
+    background-color: #f3f3f3;
+    color: black;
+    text-align: left;
+
+}
+th,td {
+    padding: 15px 20px;
+
+}
+tbody tr, td, th {
+    border: 2px solid #ddd;
+}
+tbody tr:last-of-type{
+    /* qui vas nous permettre de souligne le tableau */
+    border-bottom: 2px solid goldenrod;
+
+} 
+.droite{
+     margin-left: 35%;
+     margin-top: -230px;
+
+    }
+   #sortie {  
+       padding-top: 10px;
+       margin: -5px;
+       
+     
+          margin-top:-99px;  
+        float: right;
+     }  
+    #logos{
+        margin: 30px;
+        margin-top:15px ;
+        float: right;
+    }
+    fieldset {
+        margin: 330px; 
+        margin-top: 10px;
+         border-color: gold; 
+    } 
+    b{
+        border: 1px solid;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
