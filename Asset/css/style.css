@@ -1,0 +1,65 @@
+h1{
+    background-color: goldenrod;
+     margin: 150px; 
+     /* padding-left: 12px;
+     padding-right: 20px; */
+     margin-top: -1px;
+     text-align: center;
+}
+.tableau-style {
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    /* box-shadow: 0 5px 50px rgba(0, 0, 0, 15); */
+    cursor: pointer;
+    margin: 50px auto;
+    border: 2px solid #ddd;
+    margin-top: -100px;
+
+}
+thead tr {
+     /* pour la couleur du titre; */ 
+    background-color: #f3f3f3;
+    color: black;
+    text-align: left;
+
+
+}
+th,td {
+    padding: 15px 20px;
+
+}
+tbody tr, td, th {
+    border: 1px solid #ddd;
+}
+tbody tr:nth-child(even){
+    /* prendre les ranger par pairs de couleur */
+    background-color: #f3f3f3;
+
+}
+tbody tr:last-of-type{
+    /* qui vas nous permettre de souligne le tableau */
+    /* border-bottom: 2px solid goldenrod; */
+
+}
+fieldset{
+    margin: 100px; 
+    margin-top: 1px;
+    border-color: gold; 
+}
+#sortie {  
+    padding-top: 2px;
+    margin: px;
+    
+  
+       /* margin-top:-99px;   */
+         float: right;
+    
+         }
+        .ajout{
+            margin: 10px; 
+            padding-top: 1px; 
+            float: left;
+            /* margin-left: -5px; */
+
+        }  
