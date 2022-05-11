@@ -1,0 +1,30 @@
+table{
+    width:1200 ;
+    text-align: center;
+     margin-left: 1px; 
+    margin-right: 20px;
+}
+th{
+    text-align: center;
+    background-color: rgb(201, 200, 193);
+    width: 100px;
+}
+td,th {
+    border: solid 1px rgb(211, 202, 153);
+
+}
+#corps{
+    width: 1200; height: 400px;
+    border: solid 5px gold;
+   /* margin-left: 100px;  */
+  margin-top:30px;
+  padding: 5px 5px 5px;
+  margin-left: 20px;
+  
+}
+/* table{
+    width: 90%;
+    margin-left: 30px;
+    margin-top:80px;
+    margin-top: -30px;
+} */ 

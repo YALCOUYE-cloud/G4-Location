@@ -1,0 +1,19 @@
+.container{
+    border: 5px solid gold;
+    width: 600px; height: 540px; 
+    /* margin-right: 300px;
+    margin-left: 300px;
+    padding-right: -600px; */
+}
+
+
+.modifier{
+    float: left;
+    width: 30px;
+}
+
+
+
+
+
+

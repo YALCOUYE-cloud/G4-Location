@@ -1,0 +1,53 @@
+table{
+    width:1200 ;
+    text-align: center;
+     margin-left: 9px; 
+    margin-right: 20px;
+}
+th{
+    text-align: center;
+    background-color: rgb(201, 200, 193);
+    width: 100px;
+}
+td,th {
+    border: solid 1px rgb(211, 202, 153);
+
+}
+
+
+#amg{
+    text-align: center;
+    margin-left: 5px;
+    text-decoration: none;
+    float: left;
+
+}
+#fa{
+    float: right;
+    /* margin-left: 650px; */
+    text-decoration: none;
+}
+
+form{
+    margin-left: 40px;
+    width: 500px;
+    /* margin-bottom: 50px; */
+    /* padding-top: 100px; */
+}
+#partie{
+    float: right;
+    margin-top: -280px; 
+    margin-left: 200px;
+  
+}
+/* #colone{
+    float: left;
+    margin-right: 100px;
+} */
+
+input,label{
+    font-weight: bold;
+}
+select{
+    font-weight: bold;
+}
