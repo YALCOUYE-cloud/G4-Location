@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #log{
+            text-align: center;
+            border: 5px solid black;
+            margin-top: 100px;
+            margin-left: 450px;
+            margin-right: 400px;
+            padding-bottom: 100px;
+            box-shadow: 2px 3px 4px 1px;
+        }
+        #corps{
+            position: relative;
+            top: 50px;
+        }
+        label{
+              margin-left: 10px; 
+            /* padding-right: 10px;  */
+            margin-bottom: 20px; 
+            font-size: 20px;
+            font-weight: bolder;
+            display:block;
+            width:152px;
+            float:left;
+        }
+        input{
+            width:250px;
+            height: 20px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: bolder;
+            border: 2px solid black;
+            border-radius: 5px;
+            /* text-align:right; */
+        }
+        #btn1{
+            border: none;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 10px;
+            background-color:white;
+        }
+        #btn2{
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            padding: 10px;
+            padding-left: 100px;
+            padding-right: 100px;
+            font-weight: 600;
+            background-color:#FDCA07;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="Accueil.html" >
+     <div id="log">
+         <div>
+        <img src="Asset/img/Logo.png" alt="">
+    </div>
+    <div id="corps">
+        <div>
+        <label for="">Nom d'utilisateur</label><input type="text"> <br>
+        
+    </div>
+    <div>
+        <label for="">Mot de Passe</label><input type="password"> <br>
+        
+    </div>
+    
+        <button  formaction="recuperatioPW.html"; id="btn1" >Mot de passe oublié</button>
+        <div >
+              
+        <button id="btn2">CONNEXION</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </form>
+   
+</body>
+</html>

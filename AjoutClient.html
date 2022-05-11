@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styl.css">
+    <style>
+        body{
+            background-color:white;
+        }
+        form,.ajout{
+            position:relative;
+           left: 50px ; 
+           width: 550px;
+          
+        }
+        h1,h2,h3,h4,h5,h6{
+            color: #fff;
+        }
+        h2{
+            text-align:center;
+            padding: 20px;
+             margin-left: 200px;
+            color:black;
+            box-shadow: 2px 15px white;
+            background-color: #FDCA07;
+            width: 300px;
+        }
+        
+        input[type="text"],input[type="email"],input[type="number"],input[type="tel"]{
+            /* background-color: #999; */
+            font-size:20px;
+        }
+        label{
+            font-weight: bold;
+            color: black;
+            font-size:20px;
+            
+           
+        }
+        #droit{
+            float: right;
+            margin-top: -138px;
+        }
+        .gauche{
+            float:left;
+        }
+        .container1{
+            
+            border: 5px solid #FDCA07;
+            margin-left: 350px;
+            margin-top: 50px;
+            margin-right: 300px; 
+            
+        }
+        #btnF{
+            float: right;
+            margin-top: -103px;
+            padding-right: 3px;
+        }
+        #tel{
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+        #btn1{
+            border: none;
+            color: black;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 50px;
+            background-color:red;
+        }
+        #btn2{
+            border: none;
+            color: black;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            background-color:#FDCA07;
+            margin-top: 50px;
+            margin-left: 350px;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="container-fluid centers"> 
+                        
+        <div class="row" >
+            <div class="container1" id="mainCont">
+            <h2>Nouveau Client</h2>
+            <a href=""><img id="btnF" src="img/Fermer.png" alt=""></a>
+                <form method="post" action="listeClient.html" style="margin:20px;" >
+                     <div id="gauche">
+                            <label for="nom" name="nomc">Nom</label> <br> 
+                            <input type="text" placeholder="Nom" maxlength="30" required> <br>
+                        
+                            <label for="nom" name="prenomc">Prénom</label> <br> 
+                            <input type="text" placeholder="Prenom" maxlength="255" required><br>
+                        </div>
+                            <div id="droit">
+                            <label for="Adresse" name="adrssec">Adresse</label> <br>
+                            <input type="text" placeholder="adresse" maxlength="255" required><br> 
+                        
+                            <label for="tel" name="nump">N° de Permis</label> <br>
+                            <input type="number" placeholder="Numero de permis" maxlength="10" required> <br>
+                        </div>
+                         <div id="tel">
+                            <label for="tel" name="telc">Téléphone</label><br> 
+                            <input type="tel" placeholder="Numero de téléphone" maxlength="8" required><br>
+                        </div>
+                           <a href=""> <button id="btn1" type="reset"  class=" btn btn-success">Annuler</button>
+                            <button id="btn2" type="submit"  class=" btn btn-success" >Ajouter</button>
+                
+                    </form>
+            </div>
+        </div>
+    </main>
+   
+</body>
+</html>

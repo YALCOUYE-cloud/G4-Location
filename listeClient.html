@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #corps{
+            width: 98%;
+            border: 5px solid gold;
+             margin-left: 5px; 
+            margin-top: 50px;
+            margin-right:80px; 
+            height: 550px;
+            
+        }
+        h1{
+            text-align: center;
+            background-color: #FDCA07;
+            padding: 5px; 
+            width: 400px;
+            margin-left: 490px;
+        }
+        table{
+            
+            border-collapse:collapse;
+            text-align: center;
+            margin-right: 10px;
+            width: 100%;
+         
+        }
+        td,th{
+            border: 1px solid black;
+            
+           
+        }
+        /* tr:nth-child(odd) {
+ background: #eee;
+}
+tr:nth-child(even) {
+ background:yellow;
+} */
+/* table td:empty, table td:empty:hover {
+ background: white;
+}
+table tr:hover {
+ background: #bbb;
+ color:white;
+} */
+
+        #btnF{
+            float: right;
+            margin-top: -88px;
+            padding-right: 3px;
+        }
+        #btnP{
+        float: left;
+            margin-top: -85px;
+            padding-right: 3px;
+             margin-left: 20px; 
+        }
+        #btnPl{
+        
+            
+             margin-left: 30px; 
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="corps">
+    <h1>LISTE DES CLIENTS</h1>
+    <a href="Accueil.html"><img id="btnF" src="Asset/img/Fermer.png" alt=""></a>
+    <div id="btnP">
+    <a href="AjoutClient.html"><img id="btnPl" src="Asset/img/Plus.png" alt=""><br>Ajouter Client</a></div>
+    <table row="5" cols="7">
+        <thead>
+            <tr>
+            <th>Identifiant</th>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Adresse</th>
+            <th>N° Permis</th>
+            <th>Téléphone</th>
+            <th cols="2"> Detail</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr>
+            <td>1</td>
+            <td>DJIKINE</td>
+            <td>MAMADOU</td>
+            <td>SEBENICORO</td>
+            <td>215555</td>
+            <td>70277751</td>
+            <td><a href=""><img src="img/InfoCircle.png" alt=""></a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>BARRY</td>
+            <td>FOUSSEINY</td>
+            <td>MAGNABOUGOU PROJET</td>
+            <td>215556</td>
+            <td>70277751</td>
+            <td><a href=""><img src="img/InfoCircle.png" alt=""></a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>DAGNOGO</td>
+            <td>OUMOU</td>
+            <td>KATI</td>
+            <td>215558</td>
+            <td>70277751</td>
+            <td><a href=""><img src="img/InfoCircle.png" alt=""></a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>YALCOYE</td>
+            <td>MOHAMED</td>
+            <td>DIALAKOROBOUGOU</td>
+            <td>2155558</td>
+            <td>70277751</td>
+            <td><a href=""><img src="img/InfoCircle.png" alt=""></a></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>SISSOKO</td>
+            <td>AMARA</td>
+            <td>ACI200</td>
+            <td>215559</td>
+            <td>70277751</td>
+            <td><a href=""><img src="img/InfoCircle.png" alt=""></a></td>
+        </tr>
+        </tbody>
+    
+        
+    </table>
+</div>
+
+</script>
+</body>
+</html>
