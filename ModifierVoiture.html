@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
+	"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Modifer Voiture</title>
+	<link rel="stylesheet" href="asset/css/modifiervoiture.css">
+</head>
+<body>
+
+	<div container>
+		
+		<fieldset> <!--<form method="post" action="traitementparking.php"> -->
+			<form>
+			<p>Modifer Voiture</p>
+			<br>
+
+			<div id="infogauche">
+			<label for="categorie" id="categorie">Catégorie</label><br>
+			<select id="selectcategorie" name="selectcategorie">
+			<option value="VoitureCoupe">Voiture Coupée</option>
+			<option value="Voitureberline">Voiture Berline</option>
+			<option value="VoitureHayon">Hayon</option>
+			<option value="voitureBreak">Voiture Break</option>
+			<option value="VoiturePickUp">Pick-Up</option>
+			<option value="Pick-Up">Pick-Up</option>
+			</select><br> 
+
+			<label for="Marque">Marque</label><br>
+			<select id="selectvoiture" name="selectvoiture">
+			<option value="Audi">Audi</option>
+			<option value="BMW">BMW</option>
+			<option value="Citroen">Citroen</option>
+			<option value="Dodge">Oddi</option>
+			<option value="Ferrari">Ferrari</option>
+			<option value="Jeep">Jeep</option>
+			<option value="Ford">Ford</option>
+			<option value="Honda">Honda</option>
+			<option value="Hummer">Hummer</option>
+			<option value="Hyundai">Hyundai</option>
+			<option value="Kia">Kia</option>
+			<option value="Lamborghini">Lamborghini</option>
+			<option value="Land-Rover">Land Rover</option>
+			<option value="Mazda">Mazda</option>
+			<option value="MercedesBenz">Mercedes Benz</option>
+			<option value="Peugeot">Peugeot</option>
+			<option value="TOYOTA">TOYOTA</option>
+			<option value="Renault">Renault</option>
+			</select><br>
+
+			<label for="modelvoiture" id="modelvoiture">Model</label><br>
+			<input type="text" name="modevoiture"><br>
+
+			<label>Energie</label><br>
+			<select id="energie" name="Energie">
+			<option value="essence">Essence</option>
+			<option value="gazoil">Gazoil</option>
+			</select><br>
+			
+
+			<label for="photovoiture" id="photovoiture">Photo</label>
+			<input type="file" name="Photo" style="margin-top: -10px;"> <br>
+		
+		</div>
+
+		<div class="infodroite">
+		<label for="imatriculationNbr" id="immatriculationNbr">N° d'immatriculation</label><br>
+		<input type="text" name="immatriculationNbr"><br>
+		<label for="GPS" id="gpsvoiture">GPS</label><br>
+			<input type="text" name="gps"><br>
+
+			<label for="etatvoiture" id="etatvoiture">Etat</label><br>
+			<select id="Etat"  name="Etat">
+			<option value="bon">Bon</option>
+			<option value="Critique">Critique</option>
+			</select><br>
+			
+			<label for="climatisee" id="climatisee">Climatisée</label><br>
+			<select id="climatisee" name="climatisee">
+			<option value="Oui" >Oui</option>
+			<option value="Non">Non</option>
+			</select><br>
+
+			<label>Couleur</label><br>
+			<input type="color" name="couleurvoiture"><br>
+
+			
+			<div id="button">
+
+				<a class="btn" href="ListeVoiture.html" role="button" style="color: black; background-color: red; font-size:20px"> Annuler</a>
+				<a class="btn" href="ListeVoiture.html" role="button" style="color:black; background-color: gold ; font-size: 20px;"> Modifier</a>
+				
+				</div>
+			<!-- </div>
+			
+			<div id="button">
+			<input type="reset" value="reset" name="Annuler">
+
+			<input type="submit" value="Submit" class="btn-warning">
+			
+			</div> -->
+			</form>
+			<br>
+		</fieldset>
+		</div>
+
+
+
+</body>
+</html>

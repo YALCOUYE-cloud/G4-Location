@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(218, 209, 226)    ;
+}
+fieldset{
+    /* background-image: url(img/Voiture2.jpg); */
+    width: 750px; 
+    margin-left: 250px;
+    margin-top: 40px;
+    border: 5px solid gold;
+    font-size: 20px;
+    font-family: arial;
+    /* line-clamp: 40px; */
+
+        }
+
+P   {
+    text-align: center;
+    border: 1px gold ;
+    background-color: gold;
+    margin: -8px 0px 0px -10 px;
+    font-size: 30px;
+    }
+
+#infogauche{
+       float: left;
+       margin: 0px 0px 0px 20px;
+       /* border: 1px solid gold;  */
+            }
+          
+  a{
+      color: black;
+      font-size: 50px;
+
+    }
+
+/* input{
+    margin-left: 20px;
+    margin-top: 20px;
+    } */
+    /* select{
+        margin-top: 20px;
+        margin-left: 20px;
+    } */
+    #button{
+        margin-top: 30px;
+        word-spacing: 400px;
+        text-align: center;
+
+    }

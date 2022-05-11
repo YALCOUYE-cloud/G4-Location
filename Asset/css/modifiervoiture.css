@@ -1,0 +1,40 @@
+
+fieldset{
+    width: 750px; 
+    margin-left: 250px;
+    margin-top: 40px;
+    border: 5px solid gold;
+    font-size: 20px;
+    /* line-clamp: 40px; */
+
+        }
+
+P   {
+    text-align: center;
+    border: 1px gold ;
+    background-color: gold;
+    margin: -8px 0px 0px -10 px;
+    font-size: 30px;
+    }
+
+#infogauche{
+       float: left;
+       margin: 0px 0px 0px 20px;
+       /* border: 1px solid gold;  */
+            }
+
+/* input{
+    margin-left: 20px;
+    margin-top: 20px;
+    } */
+    /* select{
+        margin-top: 20px;
+        margin-left: 20px;
+    } */
+    #button{
+        margin-top: 30px;
+        word-spacing: 400px;
+        text-align: center;
+
+    }
+   

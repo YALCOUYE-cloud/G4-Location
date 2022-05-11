@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Liste des voitures</title>
+	<link rel="stylesheet" href="asset/css/listevoiture.css">
+</head>
+<body>
+
+	<div class="container">
+			
+					<div class="row">
+						<div class="col-md-5">
+					<div class="ajouter"> <a href="AjouterVoiture.html"> <img src="asset/img/Ajouter.png" ><br>Ajouter Voiture</a></div>
+					</div>
+					<div class="col-md-6">
+					<h1>Liste des voitures</h1></div>
+					<div class="col-md-1">
+					<div class="fermer"> <a href="Acceuil.html"> <img src="asset/img/Fermer.png" ><br></a></div>
+					</div></div>
+              	<div class="row">
+					<table>
+					<tr>
+						<th>ID voiture</th>
+						<th>N° d'immatriculation</th>
+						<th>Catégorie</th>
+						<th>Marque</th>
+						<th>Model</th>
+						<th>Couleur</th>
+						<th>Etat</th>
+						<th>Energie</th>
+						<th>Climatissée</th>
+						<th>Modifer</th>
+						<th>Supprimer</th>
+						<th>Info</th>
+					</tr>
+					<tr>
+						<th>01</th>
+						<th>M6325MD</th>
+						<th>Personnel</th>
+						<th>BMW</th>
+						<th>14 M50</th>
+						<th>Bleu</th>
+						<th>BON</th>
+						<th>Gazoil</th>
+						<th>OUI</th>
+						<th><a href="ModifierVoiture.html"><img src="asset/img/modifier.png"></th></a>
+						<th><button onclick="suprim()"><img src="asset/img/Trash.png"></button></th>
+						<th><a href="detailsvoiture.html"> <img src="asset/img/InfoCircle.png"></th></a>
+					</tr>
+
+				
+
+					<script>
+					function suprim() {
+					confirm("Attention! Cette Acction supprimera cette voiture dans votre liste des voitures!");
+					}
+					</script>
+
+
+					<tr>
+						<th>02</th>
+						<th>M7377MD</th>
+						<th>Personnel</th>
+						<th>Mercedez</th>
+						<th>MCD 190</th>
+						<th>Blanche</th>
+						<th>BON</th>
+						<th>Essence</th>
+						<th>OUI</th>
+						<th><a href="ModifierVoiture.html"><img src="asset/img/modifier.png"></th></a>
+						<th><button onclick="suprim()"><img src="asset/img/Trash.png"></button></th>
+						<th><a href="detailsvoiture.html"> <img src="asset/img/InfoCircle.png"></th></a>
+					</tr>
+					<tr>
+						<th>03</th>
+						<th>M0987MD</th>
+						<th>MiniBus</th>
+						<th>Hyundai</th>
+						<th>H350</th>
+						<th>Grise</th>
+						<th>BON</th>
+						<th>GAZOIL</th>
+						<th>OUI</th>
+						<th><a href="ModifierVoiture.html"><img src="asset/img/modifier.png"></th></a>
+						<th><button onclick="suprim()"><img src="asset/img/Trash.png"></button></th>
+						<th><a href="detailsvoiture.html"> <img src="asset/img/InfoCircle.png"></th></a>
+					</tr>
+					<tr>
+						<th>04</th>
+						<th>M7288MD</th>
+						<th>PICKUP</th>
+						<th>Land Rover</th>
+						<th>P525</th>
+						<th>Blanche</th>
+						<th>BON</th>
+						<th>Essence</th>
+						<th>OUI</th>
+						<th><a href="ModifierVoiture.html"><img src="asset/img/modifier.png"></th></a>
+						<th><button onclick="suprim()"><img src="asset/img/Trash.png"></button></th>
+						<th><a href="detailsvoiture.html"> <img src="asset/img/InfoCircle.png"></th></a>
+					</tr>
+
+					<tr>
+						<th>05</th>
+						<th>M7745MD</th>
+						<th>Pick-Up</th>
+						<th>GMC</th>
+						<th>Hummer EV 2022</th>
+						<th>NOIR</th>
+						<th>BON</th>
+						<th>Essence</th>
+						<th>OUI</th>
+						<th><a href="ModifierVoiture.html"><img src="asset/img/modifier.png"></th></a>
+						<th><button onclick="suprim()"><img src="asset/img/Trash.png"></button></th>
+						<th><a href="detailsvoiture.html"> <img src="asset/img/InfoCircle.png"></th></a>
+					</tr>
+					</table>
+				</div>
+    </div>
+</body>
+</html>
