@@ -1,4 +1,5 @@
 h4{
+    margin-top: 5px;
     text-align: center;
     background-color: gold;
     margin-left: 400px;
@@ -9,10 +10,11 @@ table{
 th,td{
     border: 1px solid black;
 }
-.ajout{
-    text-align: center;
-    float:right;
-margin-left: 50px;
+
+#btnPl{
+        
+            
+    margin-left: 30px; 
 }
 .annuler{
     position:absolute;
@@ -28,4 +30,8 @@ margin-left: 50px;
 .container-fluid{
     border: 5px solid gold;
     
+}
+a{
+    text-decoration: none;
+    color: black;
 }
