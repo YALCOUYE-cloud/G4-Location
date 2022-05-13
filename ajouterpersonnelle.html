@@ -9,43 +9,43 @@
     <title>Ajoutez personnelle</title>
 </head>
 <body>
-    <div class="container" style="background-image:url(Asset/img/images.png); border:6px solid gold;width: 650px;height:500px;">
-    <div class="row;">
-        <div class="cold-md-3">
-            
-   <div><h4>Ajoutez personnelle</h4><a href="listepersonnelle.html">
-    <img src="Asset/img/annuler.jpg" class="fermer"></a></div>
-    <form>
-        <label>Nom</label>
-        <br><input type="text"><br>
-        <label>Prénom</label><br>
-        <input type="text"><br>
-         <label>Poste</label><br>
-         <Select>
-             <option>Gerant(e)</option>
-             <option>Comptable</option>
-             <option>Gardien</option>
-             <option>Chauffeur(e)</option>
-             <option>Fournisseur</option>
-             <option>Commerciale</option>
-         </Select>
-         </div>
-         </div>   
-         <div  id="droit" class="row">
-                <div class="cold-md-3">
-                    <label>Adresse</label><p>
-                    <input type="text"><br>
-                        <label>Contacts</label><p>
-                        <input type="text"><br>
+    <div class="container" style="background-image:url(Asset/img/images.png); border:6px solid gold;width: 720px;height:500px; font-size: 20px;">
+    
+        <div><h4>Ajoutez personnelle</h4><a href="listepersonnelle.html">
+        <img src="Asset/img/annuler.jpg" class="fermer"></a></div>
+                <form>
+                    <div class="row">
+                    <div class="col-md-6" >
+                            <label>Nom</label><br>
+                            <input type="text" placeholder="Nom"><br>
+                            <label>Prénom</label><br>
+                            <input type="text" placeholder="Prénom"><br>
+                            <label>Poste</label><br>
+                            <Select>
+                            <option>Gerant(e)</option>
+                            <option>Comptable</option>
+                            <option>Gardien</option>
+                            <option>Chauffeur(e)</option>
+                            <option>Fournisseur</option>
+                            <option>Commerciale</option>
+                            </Select>
+                    </div>
+           
+                    <div class="col-md-4">
+                        <label>Adresse</label><br>
+                        <input type="text" placeholder="Adresse">
+                        <label>Contacts</label><br>
+                        <input type="tel" placeholder="Numéro de téléphone" >
                         <label>Photos</label><p>
-                    <input type="file">
-                        </div>
-         </div>
-         <a href="Accueil.html"><input type="button" name="annuler"value="annuler" class="my"></class></a>
-         <a href="listepersonnelle.html"><input type="button" name="envoyer" value="valider"class="ly"></class></a>
-         
-
+                         <input type="file">
+                    </div>
+                    <br>
+                 
+            </div>
+            <br><br><br>
+            <a href="Accueil.html"><input type="button" name="annuler"value="annuler" class="my"></a>
+                 <a href="listepersonnelle.html"><input type="button" name="envoyer" value="valider" class="ly"></a>
         </form>
-        </div>
+    </div>    
 </body>
 </html>

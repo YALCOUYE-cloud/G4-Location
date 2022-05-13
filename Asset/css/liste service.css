@@ -1,9 +1,21 @@
+.ajout{
+    text-align: center;
+    float:left;
+/* margin-left: 50px; */
+}
+a{
+    color:black;
+}
+
 h4{
     margin-top: 5px;
     text-align: center;
     background-color: gold;
-    margin-left: 400px;
-    margin-right: 250px;
+    width: 300px;
+    font-size: 40px;
+}
+.fermer{
+    float: right;
 }
 table{
     border-collapse: collapse; }
@@ -11,11 +23,14 @@ th,td{
     border: 1px solid black;
 }
 
+<<<<<<< HEAD
 #btnPl{
         
             
     margin-left: 30px; 
 }
+=======
+>>>>>>> 96f88390f0e2f023a1993441dbc1995adc195da7
 .annuler{
     position:absolute;
     top: 2px;
@@ -24,11 +39,10 @@ th,td{
     /* margin-left: 1095px; */
     
 }
-.fermer{
-    float: right;
-}
+
 .container-fluid{
     border: 5px solid gold;
+    padding-top: 10px;
     
 }
 a{

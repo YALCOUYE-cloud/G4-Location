@@ -5,21 +5,20 @@ fieldset{
 
 }
 .lab{
+    margin-top: 20px;
     text-align: center;
     font-weight: bold;
+    font-size: 30px;
 
 }
 .gau{
-    margin: 100px;
+    margin-left: 100px;
     float: left;
-    background-color: red;
     color: red;
-
 }
 .dr{
-    margin: 100px;
+    margin-right: 100px ;
     float: right;
-    background-color: gold;
     color: gold;
 }
 .cadre{
@@ -32,6 +31,11 @@ h1{
     border: 1px solid gold;
     margin-left: 200px;
     margin-right: 200px;
-
-
+}
+a{
+    color: black
+}
+button{
+    font-size: 30px;
+    border-radius: 5px;
 }
