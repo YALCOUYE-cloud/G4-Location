@@ -1,19 +1,27 @@
+.ajout{
+    text-align: center;
+    float:left;
+/* margin-left: 50px; */
+}
+a{
+    color:black;
+}
+
 h4{
     text-align: center;
     background-color: gold;
-    margin-left: 400px;
-    margin-right: 250px;
+    width: 300px;
+    font-size: 40px;
+}
+.fermer{
+    float: right;
 }
 table{
     border-collapse: collapse; }
 th,td{
     border: 1px solid black;
 }
-.ajout{
-    text-align: center;
-    float:right;
-margin-left: 50px;
-}
+
 .annuler{
     position:absolute;
     top: 2px;
@@ -22,10 +30,9 @@ margin-left: 50px;
     /* margin-left: 1095px; */
     
 }
-.fermer{
-    float: right;
-}
+
 .container-fluid{
     border: 5px solid gold;
+    padding-top: 10px;
     
 }

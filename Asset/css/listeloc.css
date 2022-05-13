@@ -1,17 +1,21 @@
 table{
+    border-collapse: collapse;
     width:1200 ;
     text-align: center;
      margin-left: 9px; 
     margin-right: 20px;
+    
 }
 th{
     text-align: center;
-    background-color: rgb(201, 200, 193);
+    background-color: rgb(221, 220, 214);
     width: 100px;
+   
 }
 td,th {
-    border: solid 1px rgb(211, 202, 153);
-
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px rgb(146, 146, 137);
 }
 
 
@@ -50,4 +54,7 @@ input,label{
 }
 select{
     font-weight: bold;
+}
+a{
+    color: black;
 }

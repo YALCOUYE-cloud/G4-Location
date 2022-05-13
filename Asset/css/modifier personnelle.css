@@ -38,4 +38,5 @@ label{
 .container{
     background-image:url(../img/location.png);
     background-repeat: no-repeat;
+    font-size: 18px;
 }
